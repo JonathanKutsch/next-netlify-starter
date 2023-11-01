@@ -39,11 +39,11 @@ export default function Home() {
           <thead>
             <tr>
             <th>Year</th>
-              <th>NCAA ID</th>
+              <th>ID</th>
               <th>First Name</th>
               <th>Last Name</th>
-              <th>Initiated Date</th>
-              <th>Last Updated</th>
+              <th>Date</th>
+              <th>Updated</th>
               <th>D</th>
               <th>Institution</th>
               <th>Sport</th>
@@ -53,34 +53,34 @@ export default function Home() {
           </thead>
           <tbody>
             <tr>
-              <td>Row 1 Data 1</td>
-              <td>Row 1 Data 2</td>
-              <td>Row 1 Data 3</td>
-              <td>Row 1 Data 4</td>
-              <td>Row 1 Data 5</td>
-              <td>Row 1 Data 6</td>
-              <td>Row 1 Data 7</td>
-              <td>Row 1 Data 8</td>
+              <td>22-23</td>
+              <td>2008905525</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>7/19/2023</td>
+              <td>7/21/2023</td>
+              <td>I</td>
+              <td>Baylor University</td>
             </tr>
             <tr>
-              <td>Row 2 Data 1</td>
-              <td>Row 2 Data 2</td>
-              <td>Row 2 Data 3</td>
-              <td>Row 2 Data 4</td>
-              <td>Row 2 Data 5</td>
-              <td>Row 2 Data 6</td>
-              <td>Row 2 Data 7</td>
-              <td>Row 2 Data 8</td>
+              <td>22-23</td>
+              <td>190247201</td>
+              <td>James</td>
+              <td>Smith</td>
+              <td>8/06/2023</td>
+              <td>8/18/2023</td>
+              <td>I</td>
+              <td>Boston College</td>
             </tr>
             <tr>
-              <td>Row 3 Data 1</td>
-              <td>Row 3 Data 2</td>
-              <td>Row 3 Data 3</td>
-              <td>Row 3 Data 4</td>
-              <td>Row 3 Data 5</td>
-              <td>Row 3 Data 6</td>
-              <td>Row 3 Data 7</td>
-              <td>Row 3 Data 8</td>
+              <td>22-23</td>
+              <td>2101334625</td>
+              <td>Alex</td>
+              <td>Longoria</td>
+              <td>9/23/2023</td>
+              <td>9/29/2023</td>
+              <td>I</td>
+              <td>Louisiana State University</td>
             </tr>
           </tbody>
         </table>
