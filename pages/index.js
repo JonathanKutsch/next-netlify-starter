@@ -1,6 +1,5 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+
 export default function Home() {
   return (
     <div className="container">
@@ -9,8 +8,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <style jsx>{`
+        table.excelTable {
+          width: 100%;
+          border-collapse: collapse;
+        }
+
+        table.excelTable th {
+          background-color: #3498db;
+          color: #ffffff;
+          font-weight: bold;
+          padding: 8px;
+          text-align: center;
+        }
+
+        table.excelTable td {
+          padding: 8px;
+          text-align: center;
+        }
+
+        table.excelTable tbody tr:nth-child(odd) {
+          background-color: #f2f2f2;
+        }
+      `}</style>
+
       <main>
-        <table>
+        <table className="excelTable">
           <thead>
             <tr>
               <th>Header 1</th>
