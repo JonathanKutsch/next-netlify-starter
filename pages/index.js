@@ -4,46 +4,51 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Table Example</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Transfer Portal</title>
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <style jsx>{`
-        table.excelTable {
-          width: 100%;
-          border-collapse: collapse;
-        }
-
-        table.excelTable th {
-          background-color: #3498db;
-          color: #ffffff;
-          font-weight: bold;
-          padding: 8px;
-          text-align: center;
-        }
-
-        table.excelTable td {
-          padding: 8px;
-          text-align: center;
-        }
-
-        table.excelTable tbody tr:nth-child(odd) {
-          background-color: #f2f2f2;
-        }
-      `}</style>
-
       <main>
+        {/* <h1>My Excel-Like Table</h1> */}
+
+        <style jsx>{`
+          table.excelTable {
+            width: 100%;
+            border-collapse: collapse;
+          }
+
+          table.excelTable th {
+            background-color: #3498db;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 8px;
+            text-align: center;
+          }
+
+          table.excelTable td {
+            padding: 8px;
+            text-align: center;
+          }
+
+          table.excelTable tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+          }
+        `}</style>
+
         <table className="excelTable">
           <thead>
             <tr>
-              <th>Header 1</th>
-              <th>Header 2</th>
-              <th>Header 3</th>
-              <th>Header 4</th>
-              <th>Header 5</th>
-              <th>Header 6</th>
-              <th>Header 7</th>
-              <th>Header 8</th>
+            <th>Year</th>
+              <th>NCAA ID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Initiated Date</th>
+              <th>Last Updated</th>
+              <th>D</th>
+              <th>Institution</th>
+              <th>Sport</th>
+              <th>Sport Conference</th>
+              <th>Student Status</th>
             </tr>
           </thead>
           <tbody>
