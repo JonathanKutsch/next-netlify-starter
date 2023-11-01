@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        {/* <h1>My Excel-Like Table</h1> */}
+        <h1>Transfer Portal</h1>
 
         <style jsx>{`
           table.excelTable {
@@ -61,6 +61,9 @@ export default function Home() {
               <td>7/21/2023</td>
               <td>I</td>
               <td>Baylor University</td>
+              <td>Baseball</td>
+              <td>Big 12 Conference</td>
+              <td>Active</td>
             </tr>
             <tr>
               <td>22-23</td>
@@ -71,6 +74,9 @@ export default function Home() {
               <td>8/18/2023</td>
               <td>I</td>
               <td>Boston College</td>
+              <td>Baseball</td>
+              <td>Atlantic Coast Conference</td>
+              <td>Active</td>
             </tr>
             <tr>
               <td>22-23</td>
@@ -81,6 +87,9 @@ export default function Home() {
               <td>9/29/2023</td>
               <td>I</td>
               <td>Louisiana State University</td>
+              <td>Baseball</td>
+              <td>Southeastern Conference</td>
+              <td>Active</td>
             </tr>
           </tbody>
         </table>
